@@ -1,0 +1,11 @@
+e4decd4 HEAD@{0}: commit: Update ruby version for production
+642cd1f HEAD@{1}: commit: update ruby version in Gemfile
+e853425 HEAD@{2}: commit: specify ruby version
+4cdd586 HEAD@{3}: commit: remove username from database configuration
+6f89888 HEAD@{4}: commit: prepare for heroku push
+af99d5f HEAD@{5}: commit: refactor and hide draft labels from views
+35b6314 HEAD@{6}: commit (amend): hiding draft posts by scoping in the model
+294f80d HEAD@{7}: commit (amend): hiding draft posts by scoping in the model
+344ad85 HEAD@{8}: commit: hiding draft posts by scoping models
+f556a58 HEAD@{9}: commit: hide draft posts via controller
+e063f19 HEAD@{10}: commit (initial): initial commit; scaffold and try to hide draft posts
