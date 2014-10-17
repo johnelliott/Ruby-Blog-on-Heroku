@@ -11,11 +11,12 @@ class PostsController < ApplicationController
     @posts = Post.draft
     render "index"
   end
-  
+
   def search
-    @posts = Post.search
+    @posts = Post.search(params[:q])
     render "index"
   end
+
   # GET /posts/1
   # GET /posts/1.json
   def show
