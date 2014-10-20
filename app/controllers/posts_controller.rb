@@ -4,14 +4,9 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = if params[:q]
-      Post.search(params[:q])
-    elsif params[:drafts]
-      Post.draft
-    else
-      Post.published
-    end
-
+    @posts = Post.unscoped
+    @posts.search(params[:q]) if params[:q]
+    params[:drafts] ? @posts.draft : @posts.published
   end
 
   # def drafts
