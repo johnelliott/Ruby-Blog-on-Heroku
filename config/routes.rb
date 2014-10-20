@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  get 'drafts', to: 'posts#drafts'
-  get '/posts/search', to: 'posts#search'
   resources :posts
 
   # The priority is based upon order of creation: first created -> highest priority.
