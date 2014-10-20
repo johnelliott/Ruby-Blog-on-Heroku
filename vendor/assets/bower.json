@@ -1,0 +1,21 @@
+{
+  "name": "bower_assets",
+  "version": "0.0.2",
+  "homepage": "https://github.com/johnelliott/Ruby-Blog-on-Heroku",
+  "authors": [
+    "johnelliott <johnelliott703@gmail.com>"
+  ],
+  "description": "assets for my blog",
+  "main": "../../app/assets/stylesheets/main.css",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "~3.0.2"
+  }
+}
