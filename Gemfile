@@ -41,8 +41,10 @@ gem 'spring',        group: :development
 # Configure for Heroku: https://devcenter.heroku.com/articles/getting-started-with-rails4#local-workstation-setup
 gem 'rails_12factor', group: :production
 
-# Use Capybara
-gem 'capybara'
-
+# Use Capybara and rspec
+group :test do
+  gem 'capybara'
+  gem 'rspec-rails'
+end
 
 ruby "2.1.2"
