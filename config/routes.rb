@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   resources :posts
-
+  resources :users
+  # create users route, and point it to the new method in users controller 
+  get '/signup', to: 'users#new'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
